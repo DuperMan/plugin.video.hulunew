@@ -14,3 +14,5 @@ Version 3.9.5 Changes made to support Frodo:
 - added writing a tvshow.nfo for library export so that the XBMC library updates correctly
 - various addon.xml changes
 
+Version 3.9.6 - tidy up unused files
+

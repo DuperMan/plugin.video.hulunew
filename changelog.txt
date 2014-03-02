@@ -1,3 +1,5 @@
+V3.9.6 - tidy-up unused files
+
 Version 3.9.5 Changes made to support Frodo:
 
 - fixed most if something: to if something is not None:
