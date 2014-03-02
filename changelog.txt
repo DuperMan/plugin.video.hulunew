@@ -11,6 +11,7 @@ Version 3.9.5 Changes made to support Frodo:
 - modified most prints to log - turn on debug flag to send data to xbmc.log
 - added writing a tvshow.nfo for library export so that the XBMC library updates correctly
 - various addon.xml changes
+- added <genre>Hulu</genre> to library exports to allow easy support from PseudoTV
 
 
 [B]Version 2.9.3[/B]
