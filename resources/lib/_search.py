@@ -62,7 +62,8 @@ class Main:
             else:
                 infoLabels['Episode'] = 0
             durationseconds = int(float(item.findtext('duration')))
-            infoLabels['Duration'] =  str(datetime.timedelta(seconds=durationseconds))
+#            infoLabels['Duration'] =  str(datetime.timedelta(seconds=durationseconds))
+            infoLabels['Duration'] =  str(durationseconds/60)
             infoLabels['Rating'] = float(item.findtext('rating'))*2
             full_description = item.findtext('full-description')
 #            print "full_description ='"+str(full_description)+"'"
@@ -113,6 +114,7 @@ class Main:
 #            elif media_type == 'Film':
             elif media_type == 'true':
                 xbmcplugin.setContent(pluginhandle, 'movies')
+
 
             mode = 'TV_play'
             u = sys.argv[0]
