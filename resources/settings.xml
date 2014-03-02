@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+
+	<!-- General -->
+	<category label="30101">
+		<setting type="sep" />
+		<setting id="perpage" type="enum" label="30005" values="25|50|100|250|500|1000|2000" default="3"/>
+		<setting id="popperpage" type="enum" label="30007" values="25|50|100|250|500|1000|2000" default="2"/>
+		<setting id="allperpage" type="enum" label="30008" values="25|50|100|250|500|1000|2000" default="4"/>
+		<setting id="searchperpage" type="enum" label="30009" values="25|50|100|250|500|1000|2000" default="2"/>
+        <setting type="sep" />
+		<setting id="viewenable" type ="bool" label="30050" default="true"/>
+		<setting id="defaultview" type="enum" lvalues="30051|30052|30053|30054|30055|30056" label="30058" default="3"/>
+		<setting type="sep" />
+	</category>
+
+	<!-- Hulu+ Login -->
+	<category label="30102">
+		<setting type="sep" />
+		<setting id='enable_plus' type ="bool" label="30006" default="false"/>
+		<setting id='enable_login' type ="bool" label="30003" default="false"/>
+		<setting type="sep" />
+		<setting id="login_name" type="text" label="30001" default=""/>
+		<setting id="login_pass" type="text" label="30002" default="" option="hidden"/>
+		<setting type="sep" />
+	</category>
+
+	<!-- Streaming -->
+	<category label="30103">
+		<setting type="sep" />
+		<setting id='queueremove' type ="bool" label="30046" default="false"/>
+        <setting id='enable_captions' type ="bool" label="30026" default="false"/>
+        <setting type="sep" />
+		<setting id="quality" type="enum" lvalues="30015|30023|30024|30020|30025|30016|30017|30018" label="30004" default="1"/>
+		<setting id="defaultcdn" type="enum" lvalues="30028|30029|30030" label="30027" default="1"/>
+		<setting id="fallbackcdn" type="enum" lvalues="30066|30067" label="30065" default="0"/>
+
+		<!--<setting id="swfverify" type ="bool" label="30031" default="true"/>-->		
+		<setting type="sep" />
+		<setting id="adquality" type="enum" lvalues="30020|30016|30017|30018" label="30037" default="0"/>
+		<setting id='networkpreroll' type ="bool" label="30045" default="false"/>
+		<setting id="prerollads" type="enum" label="30035" values="0|1|2" default="0"/>
+		<setting id="trailads" type="enum" label="30036" values="0|1|2|3" default="0"/>
+		<setting type="sep" />
+		<setting id='segmentvideos' type ="bool" label="30038" default="false"/>
+		<setting id="adbreaks" type="enum" label="30039" values="0|1|2|3" default="0" enable="!eq(-1,false)"/>
+		<setting type="sep" />
+		<setting id="us_proxy_enable" type="bool" label="30042" default="false"/>
+		<setting id="us_proxy" type="text" label="30040" default=""/>
+		<setting id="us_proxy_port" type="text" label="30041" default=""/>
+		<setting id="us_proxy_user" type="text" label="30043" default=""/>
+		<setting id="us_proxy_pass" type="text" label="30044" default=""/>
+		<setting type="sep" />
+	</category>
+	
+	<!-- Export to Library -->
+	<category label="30104">
+		<setting type="sep" />
+		<setting id="enablelibraryfolder" type="bool" label="30033" default="true"/>
+		<setting id="customlibraryfolder" type="folder" label="30032" default=""/>
+		<setting id="updatelibrary" type="bool" label="30034" default="true"/>
+		<setting type="sep" />
+		<!-- <setting id="shownfo" type="bool" label="30060" default="false"/> -->
+		<setting id="episodenfo" type="bool" label="30061" default="true"/>
+		<setting id="movienfo" type="bool" label="30062" default="false"/>
+		<setting id="librarysuffix" type="text" label="30063" default="(Hulu)"/>
+		<setting type="sep" />
+	</category>
+	
+	<!-- Ads 
+	<category label="30105">
+		<setting type="sep" />
+		<setting id='networkpreroll' type ="bool" label="30045" default="false"/>
+		<setting type="sep" />
+		<setting id="adquality" type="enum" lvalues="30020|30016|30017|30018" label="30037" default="0"/>
+		<setting id="prerollads" type="enum" label="30035" values="0|1|2" default="0"/>
+		<setting id="trailads" type="enum" label="30036" values="0|1|2|3" default="0"/>
+		<setting type="sep" />
+		<setting id='segmentvideos' type ="bool" label="30038" default="false"/>
+		<setting id="adbreaks" type="enum" label="30039" values="0|1|2|3" default="1" enable="!eq(-1,false)"/>
+		<setting type="sep" />
+	</category>-->
+
+    <category label="30119">
+      <setting id='realdebrid-enable' type ="bool" label="30120" default="false"/>
+      <setting id="realdebrid-username" type="text" label="30121" default="" enable="!eq(-1,false)"/>
+      <setting id="realdebrid-password" type="text" label="30122" default="" option="hidden" enable="!eq(-2,false)"/>
+      <setting id="realdebrid-quality" type="enum" values="HD|HQ|SD" label="30123" default="0"/>
+    </category>
+
+</settings>

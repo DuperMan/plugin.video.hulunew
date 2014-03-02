@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<!--settings labels-->
+	<string id="30001">Hulu Username</string>
+	<string id="30002">Hulu Password</string>
+	<string id="30003">Enable Login</string>
+
+	<string id="30004">Quality</string>
+	<string id="30015">Ask</string>
+	<string id="30023">720p 3200K</string>
+	<string id="30024">720p 2500K</string>
+	<string id="30020">720p 2000K</string>
+	<string id="30025">720p 1500K</string>
+	<string id="30016">480p 1000K</string>
+	<string id="30017">480p 650K</string>
+	<string id="30018">480p 400K</string>
+
+	<string id="30026">Enable Captions</string>
+
+	<string id="30005">General Per Page</string>
+	<string id="30006">Enable Hulu Plus</string>
+	<string id="30007">Popular/Recent/Featured Per Page</string>
+	<string id="30008">Alphabetical Per Page</string>
+	<string id="30009">Search Results</string>
+	
+	<string id="30050">Enable Set View</string>
+	<string id="30058">Default View</string>
+
+	<string id="30051">Thumbnail</string>
+	<string id="30052">Poster Wrap</string>
+	<string id="30053">List</string>
+	<string id="30054">Media Info 2</string>
+	<string id="30055">Media Info</string>
+	<string id="30056">Fanart</string>
+
+	<string id="30027">Default CDN</string>
+	<string id="30028">level3</string>
+	<string id="30029">limelight</string>
+	<string id="30030">akamai</string>
+	<string id="30031">SWF Verify</string>
+	
+	<string id="30032">Custom Library Folder</string>
+	<string id="30033">Default Library Folder</string>
+	<string id="30034">Update Library</string>
+	
+	<string id="30045">Network Pre-Roll</string>
+	<string id="30035">Pre-Roll Ads</string>
+	<string id="30036">Trailing Ads</string>
+	<string id="30037">Ad Quality</string>
+	<string id="30038">Enabled Commercial Breaks</string>
+	<string id="30039">Commercials per Break</string>
+	
+	<string id="30041">Port</string>
+	<string id="30040">US Proxy IP</string>
+	<string id="30042">Enable Proxy</string>
+	<string id="30043">User Name</string>
+	<string id="30044">Password</string>
+	
+	<string id="30046">Remove from Queue</string>
+	
+	<string id="30060">Export Show NFO</string>
+	<string id="30061">Export Episode NFO</string>
+	<string id="30062">Export Movie NFO</string>
+
+	<string id="30063">Title suffix</string>
+	<string id="30065">Fallback CDN</string>
+	<string id="30066">NONE</string>
+	<string id="30067">darwin-edgecast</string>
+
+	<string id="30101">Listings</string>
+	<string id="30102">Hulu Login</string>
+	<string id="30103">Streaming</string>
+	<string id="30104">Export to Library</string>
+	<string id="30105">Ads</string>
+	
+	<string id="30119">RealDebrid</string> 
+    <string id="30120">Use RealDebrid</string> 
+    <string id="30121">RealDebrid UserName</string>
+    <string id="30122">RealDebrid Password</string>
+    <string id="30123">RealDebrid Quality</string>
+</strings>

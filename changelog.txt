@@ -1,0 +1,212 @@
+Version 3.9.5 Changes made to support Frodo:
+
+- fixed most if something: to if something is not None:
+- fixed date format issues
+- move the "cache" folder from pluginpath to user profile - using pluginpath on some linux systems will write fail
+- added edgecast CDN recognition
+- tried to fix fanart and art to carry through dir views properly - still some work to do
+- fixed errors with search and subscriptions
+- modified most prints to log - turn on debug flag to send data to xbmc.log
+- added writing a tvshow.nfo for library export so that the XBMC library updates correctly
+- various addon.xml changes
+
+
+[B]Version 2.9.3[/B]
+
+- added some strm and nfo dumping to add subscriptions and queue to xbmc library
+
+[B]Version 2.9.2[/B]
+
+- fixed bug for items without thumbnail data
+
+[B]Version 2.9.1[/B]
+
+- rolled back web cache code due to bugs on linux and xbox.
+
+[B]Version 2.9.0[/B]
+
+- added dialog to show starting playback progress.(mainly for atv2)
+- add very simple web cache method
+
+[B]Version 2.8.9[/B]
+
+- added token expiration check
+
+[B]Version 2.8.8[/B]
+
+- changes for Hulu plus users. requires librtmp 2.4+
+
+[B]Version 2.8.7[/B]
+
+- updated icons and fanart. Created by SamHill from XBMC forums.
+
+[B]Version 2.8.5[/B]
+
+- Added voting for videos
+
+[B]Version 2.8.4[/B]
+
+- Bug fixes
+
+[B]Version 2.8.3[/B]
+
+- Added Remove from History
+
+[B]Version 2.8.2[/B]
+
+- Manage Queue & Subscription support
+
+[B]Version 2.8.0[/B]
+
+- initial Queue & Subscription support
+
+[B]Version 2.7.9[/B]
+
+- fixed incorrect directory total for some searches
+
+[B]Version 2.7.8[/B]
+
+- Updated hulu search with speed improvements
+- disabled offsite search because hulu stopped providing offsite results
+
+[B]Version 2.7.7[/B]
+
+- Changed Hulu+ Filtering
+
+[B]Version 2.7.6[/B]
+
+- version increment to test update
+
+[B]Version 2.7.5[/B]
+
+- Bug fixes
+
+[B]Version 2.7.4[/B]
+
+- Speed up lists
+
+[B]Version 2.7.3[/B]
+
+- Fix for subtitles
+
+[B]Version 2.7.2[/B]
+
+- Fix for hulu search
+
+[B]Version 2.7.1[/B]
+
+- Update for Hulu site changes
+
+[B]Version 2.7.0[/B]
+
+- Rearranged Settings Panel
+- Changed Default Settings
+- Added settings for SWF Verify
+
+[B]Version 2.6.9[/B]
+
+- Fix for Popular, Recent, and Featured video names after second page.
+
+[B]Version 2.6.8[/B]
+
+- Fix for shows and movies with an apostrophe in their name
+
+[B]Version 2.6.7[/B]
+
+- added CDN priority selection
+
+[B]Version 2.6.6[/B]
+
+- Fix for videos with an apostrophe in their name
+
+[B]Version 2.6.5[/B]
+
+- Added artwork for Networks & Studios
+- Huge speed up for Network & Studio lists
+
+
+[B]Version 2.6.4[/B]
+
+- intial offsite search support for
+Adult Swim
+Cartoon Network
+CBS
+TNT
+TBS
+MTV
+VH1
+CMT
+Logo
+Atom
+Comedy Central
+The Daily Show
+South Park Digital Studios
+Spike
+TV Land
+Revision3
+Funny or Die
+HBO
+Nickelodeon
+NickJr
+
+[B]Version 2.6.3[/B]
+
+- added search
+
+[B]Version 2.6.2[/B]
+
+- updated addon settings for compatability with xbmc4xbox
+
+[B]Version 2.6.1[/B]
+
+- fixed page and update listing bugs
+
+[B]Version 2.6.0[/B]
+
+- Added paging
+- Added more per page settings
+
+[B]Version 2.5.8[/B]
+
+- UTF-8 encoding fix
+
+[B]Version 2.5.7[/B]
+
+- various fixes
+- Enables subtitles
+
+[B]Version 2.5.6[/B]
+
+- Use pid from feed
+
+[B]Version 2.5.5[/B]
+
+- Added item count to some directory names
+
+[B]Version 2.5.4[/B]
+
+- Flattened "All" listing and forces 2000 items for listing.
+- Added item count to directory listings
+- Limit Popular, Recent and Featured Videos to 100 items
+- No paging support. Custom per pages for different lists will be added with paging support
+
+[B]Version 2.5.3[/B]
+
+- added Hulu Plus filtering for non Plus Members
+
+[B]Version 2.5.2[/B]
+
+- added fanart to non show listings
+
+[B]Version 2.5.1[/B]
+
+- change default icon to hulu for any listing without one. 
+
+[B]Version 2.5.0[/B]
+
+- preview release of Hulu Plus support
+
+[B]Version 3.4.8[/B]
+
+- fixed hulu real-debrid and corrected hd routine. Voinage.
+
