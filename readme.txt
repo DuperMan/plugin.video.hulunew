@@ -1,6 +1,10 @@
 ::CREDIT::
 All icons and fanart created by SamHill from XBMC forums
 
+v3.9.7 - default ads on
+
+V3.9.6 - tidy-up unused files
+
 Version 3.9.5 is derived from Bluecop's original plugin and has no new functionality other than fixes for Frodo compatibility
 Version 3.9.5 Changes made to support Frodo:
 

@@ -39,8 +39,8 @@
 		<setting type="sep" />
 		<setting id="adquality" type="enum" lvalues="30020|30016|30017|30018" label="30037" default="0"/>
 		<setting id='networkpreroll' type ="bool" label="30045" default="false"/>
-		<setting id="prerollads" type="enum" label="30035" values="0|1|2" default="0"/>
-		<setting id="trailads" type="enum" label="30036" values="0|1|2|3" default="0"/>
+		<setting id="prerollads" type="enum" label="30035" values="0|1|2" default="1"/>
+		<setting id="trailads" type="enum" label="30036" values="0|1|2|3" default="2"/>
 		<setting type="sep" />
 		<setting id='segmentvideos' type ="bool" label="30038" default="false"/>
 		<setting id="adbreaks" type="enum" label="30039" values="0|1|2|3" default="0" enable="!eq(-1,false)"/>
